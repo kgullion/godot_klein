@@ -12,7 +12,7 @@ void Kdirection::_bind_methods() {
 }
 
 Kdirection::Kdirection() noexcept { dir = kln::direction(); }
-Kdirection::Kdirection(float x, float y, float z) noexcept { dir = kln::direction(); }
+Kdirection::Kdirection(float x, float y, float z) noexcept { dir = kln::direction(x, y, z); }
 // Kdirection::Kdirection(kln::direction d) noexcept { dir = d; }
 Kdirection::~Kdirection() { }
 
