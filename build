@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+scons platform=linux -j12 custom_api_file=extension_api.json
